@@ -1,0 +1,19 @@
+{
+  "name": "eog-sxs-ai-codex-bot-v4",
+  "version": "4.0.0",
+  "description": "AI-powered Sword x Staff Discord Codex bot using EOG.GG crawler, local vector index, and OpenAI answers with sources.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "node deploy-commands.js",
+    "start": "node index.js",
+    "refresh": "node scripts/refresh-index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "openai": "^6.0.0"
+  }
+}
